@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Geometría", layout="centered")
 
 st.title("📐 App de Geometría")
+st.markdown("**Desarrollado por Ing Orlando Ramirez Rodriguez**")
+
 
 figura = st.selectbox(
     "Seleccione una figura:",
@@ -47,4 +49,4 @@ elif figura == "Círculo":
         st.pyplot(fig)
 
 st.divider()
-st.caption("Desarrollado por Ing Orlando Ramirez Rodriguez")
+
